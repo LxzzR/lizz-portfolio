@@ -321,6 +321,15 @@ a {
 /* ---- Media Queries ---- */
 /* ========================================== */
 
+/* ----------------------------------------- */
+/* Reduced Motion Media Styles */
+@media (prefers-reduced-motion: reduce) {
+  .animation {
+    animation: none;
+  }
+}
+
+/* ---- Reduced Motion ends ---- */
 
 /* ----------------------------------------- */
 /* Small Media Styles ("Phone") */
