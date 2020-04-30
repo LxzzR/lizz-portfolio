@@ -11,7 +11,7 @@ arrowBtn.addEventListener('click', hideLanding);
 function hideLanding() {
   setTimeout(function() {
     arrowBtn.style.display = 'none';
-    landing.style.justifyContent = 'flex-start';
+    landing.style.alignItems = 'flex-start';
     landing.classList.add('shrink');
     mainHeader.classList.add('header-desktop');
   }, 1000);
